@@ -13,8 +13,7 @@ body {
 #nft-container {
 	height: 460px;
 	width: 280px;
-	margin: auto;
-	margin-top: 60px;
+	margin: 8rem auto;
 	padding-top: 20px;
 	border-radius: 15px;
 	background-color: #15273F;
@@ -39,10 +38,9 @@ body {
 	height: 245px;
 	width: 240px;
 	position: absolute;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin: 80px 20px;
 	margin-top: 80px;
-	top: 0;
+	top: 4.2rem;
 	border-radius: 5px;
 	text-align: center;
 	background-position: center;
