@@ -9,6 +9,9 @@ body {
     font-family: "Outfit", sans-serif;
 }
 
+body:hover {
+    cursor: default;
+}
 
 /* NFT Card */
 
