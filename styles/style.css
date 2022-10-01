@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit", sans-serif;
+}
+
+
+/* NFT Card */
+
+.nft-card {
+    margin: 60px auto;
+    height: 480px;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.nft-image {
+    height: 240px;
+    width: 240px;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 6px;
+    background-image: url(/images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nft-image img {
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 5px;
+    transition: all 0.6s;
+}
+
+.nft-image img:hover {
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+/* NFT infos */
+
+.nft-title {
+    display: inline-block;
+}
+
+.nft-infos h1 {
+    margin-top: 15px;
+    width: auto;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+    transition: 0.6s;
+}
+
+.nft-infos h1:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+    transition: 0.6s;
+}
+
+.nft-infos p {
+    margin-top: 15px;
+    color: hsl(215, 51%, 70%);
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+
+/* Ethereum price */
+
+.purchase-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.ethereum-price, .time-left {
+    display: flex;
+    align-items: center;
+}
+
+.ethereum-price img, .time-left img {
+    max-height: 14px;
+    margin-top: auto;
+}
+
+.ethereum-price p, .time-left p {
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.ethereum-price p {
+    color: hsl(178, 100%, 50%);
+}
+
+
+/* the autor */
+
+.author {
+    display: flex;
+    margin-top: 20px;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    padding-top: 20px;
+}
+
+.author img {
+    max-height: 25px;
+    border-radius: 100%;
+    border: 1px solid #fff;
+}
+
+.author p {
+    margin: auto 10px;
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
+.author a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+.author a:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+    transition: 0.6s;
+}
+
+
+
+/* Attribution */
+
+.attribution {
+    margin-top: 50px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.attribution a {
+    color: hsl(178, 100%, 50%);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: hsl(178, 100%, 80%);
+    text-decoration: underline;
+}
